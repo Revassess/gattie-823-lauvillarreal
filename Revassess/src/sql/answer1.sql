@@ -1,0 +1,1 @@
+SELECT * FROM app_user au JOIN user_role ur ON au.role_id = ur.role_id WHERE ur.name = 'BASIC_USER';
